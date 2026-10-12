@@ -12,7 +12,7 @@
 
 > **per generated second**, native audio included — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-**[Get an API key](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-keys)** · **[Live pricing](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-pricing)** · **[Model page](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-model)** · [⚡ 60-second quickstart](#quickstart)
+**[Get an API key](https://go.apimart.ai/k-391129)** · **[Live pricing](https://go.apimart.ai/k-c5452c)** · **[Model page](https://go.apimart.ai/k-bf19e9)** · [⚡ 60-second quickstart](#quickstart)
 
 **Why teams call Kling 2.6 (`kling-v2-6`) through APIMart**
 
@@ -29,7 +29,7 @@ Kling 2.6 does text-to-video and image-to-video with native audio, dynamic masks
 
 | Route | `model` value | Billing | Notes |
 | --- | --- | --- | --- |
-| Text-to-video / image-to-video | `kling-v2-6` | per generated second, by resolution | see the [model page](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-model) for the exact tiers |
+| Text-to-video / image-to-video | `kling-v2-6` | per generated second, by resolution | see the [model page](https://go.apimart.ai/k-bf19e9) for the exact tiers |
 
 Endpoint: `POST https://api.apimart.ai/v1/videos/generations` (OpenAI-compatible), then poll `GET /v1/tasks/{task_id}`.
 
@@ -43,7 +43,7 @@ Endpoint: `POST https://api.apimart.ai/v1/videos/generations` (OpenAI-compatible
 
 <!-- pricing:model:end -->
 
-Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-pricing) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
+Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-c5452c) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
 
 ## Request parameters
 
@@ -57,7 +57,7 @@ Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-kling-
 | `image_urls` | string[] | — | first frame, first + last frame, or style references, where supported |
 | `seed` | integer | — | fix the seed to reproduce a take |
 
-The table lists the fields accepted by the APIMart OpenAI-compatible video endpoint. Check the [model page](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-model) for anything this model adds on top.
+The table lists the fields accepted by the APIMart OpenAI-compatible video endpoint. Check the [model page](https://go.apimart.ai/k-bf19e9) for anything this model adds on top.
 
 ## Quickstart
 
@@ -100,15 +100,15 @@ Runnable versions: [`examples/`](examples). The task lifecycle is `pending → p
 
 **How do I get a key?**
 
-Use the [Get an API key](https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-keys) link — $1 minimum top-up, no plan required.
+Use the [Get an API key](https://go.apimart.ai/k-391129) link — $1 minimum top-up, no plan required.
 
 ## Attributed links (how this repository is measured)
 
 | Purpose | Attributed link | Target |
 | --- | --- | --- |
-| Model page | <https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-model> | `apimart.ai/zh/model/kling-v2-6` |
-| Live pricing | <https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-pricing> | `apimart.ai/zh/pricing` |
-| Get an API key | <https://go.apimart.ai/k-PENDING-kling-v2.6-api-cn-keys> | `apimart.ai/zh/keys` |
+| Model page | <https://go.apimart.ai/k-bf19e9> | `apimart.ai/zh/model/kling-v2-6` |
+| Live pricing | <https://go.apimart.ai/k-c5452c> | `apimart.ai/zh/pricing` |
+| Get an API key | <https://go.apimart.ai/k-391129> | `apimart.ai/zh/keys` |
 
 Outbound APIMart links are minted through the promo link API; hand-made tracking parameters are rejected by
 `tools/check_links.py` in CI.
